@@ -1,1 +1,0 @@
-README specific to design/.
