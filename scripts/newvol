@@ -1,0 +1,55 @@
+#!/bin/bash
+#: Title        : newvol
+#: Date         : 2024 July 05
+#: Author       : jackjack
+#: Version      : 1.0
+#: Description  : Scaffolds directory for magazine volume
+#: Options      : <patch-to> <volume-number>
+# -------------------------------------------
+# path to w3bbiemag -- example: $HOME/w3bbie-xyz
+PATH_TO=$1    
+# number of volume  -- example volume_01                  
+VOL_NUM=$2     
+# name of volume    -- "Pathways to the World"           
+VOL_NAME=$3                     
+# prep volume name with hyphens -- "Pathways-to-the-World"  
+VOL_NAME_ALT=`echo ${VOL_NAME} | tr ' ' '-'`
+# directory of magazine
+MAG_DIR="${PATH_TO}/w3bbiemag"  # directory to magazine
+#-------------------------------------------
+if [ $# -eq 0 ]
+    then
+        echo "Supply the correct arguments."
+        echo "Usage:"
+        echo "newvol <mag-dir> <vol-num> <vol-name>"
+        exit 1
+elif [[ ! -d ${MAG_DIR} ]]
+    then
+        echo "Path not valid."
+        exit 1
+else
+    printf "Scaffolding new w3bbiemag | volume_%04d_%s\n" $(($VOL_NUM)) ${VOL_NAME_ALT}
+    cd $MAG_DIR
+    COMPLETE_VOLUME_NAME="volume_${VOL_NUM}_${VOL_NAME_ALT}"
+    mkdir ${COMPLETE_VOLUME_NAME}
+    cd ${COMPLETE_VOLUME_NAME}
+    printf "Creating sub-directories.\n"
+    touch README.md
+    touch content-overview.txt
+    mkdir _mechanicals_
+    mkdir design
+    mkdir design/cover
+    mkdir design/spreads
+    mkdir source-code
+    mkdir short-form
+    mkdir long-form
+    mkdir guides
+    mkdir prompts
+    mkdir project-stories
+    mkdir proposals
+    mkdir updates
+    mkdir comms-aka-ads
+    mkdir events
+    mkdir interviews
+    cd ..
+fi
