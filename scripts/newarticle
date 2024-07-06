@@ -1,0 +1,13 @@
+#!/bin/bash
+#: Title        : newvol
+#: Date         : 2024 July 05
+#: Author       : jackjack
+#: Version      : 1.0
+#: Description  : Builds a dirty template for an article (may move to python)
+#: Options      : <article-title> 
+#                 <mag-folder> 
+#                 <author-name> 
+#                 <description> 
+#                 <main-point-a> 
+#                 <main-point-b>
+# -------------------------------------------
