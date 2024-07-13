@@ -33,6 +33,9 @@ description: content overview for v1 w3bbiemag
 | 25     | meeting tom sachs q-a                                      | trav, jack         |               |                    ||
 | 26     | these rabbits are infinite: machine learning q-a           | chris, jack        |               |                    ||
 | 27     | conspirited: blockchains for healthcare                    | gyasi              |               |                    ||
+| 28     | nyra beats spotlight                                       | n/a                |               |                    ||
+| 29     | The DAP: decentra-american-party                           | jack               | poli-govt     |                    ||
+| 30     | w3bbie pivots on corporate                                 | jack               |               |                    ||
 | <num>  | <content-name>                                             | <contrib-name>     | <topic>       | <status>           ||
 
 
