@@ -2,6 +2,8 @@
 
 the official w3bbie labs magazine
 
-## why this is exists?
-## how to make a proposal?
-## who's involved?
+## What is w3bbiemag?
+## Setting up a Volume
+## How to Propose Content?
+## Editorial
+## How to Support
