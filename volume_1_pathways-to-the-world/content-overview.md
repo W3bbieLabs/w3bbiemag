@@ -36,6 +36,7 @@ description: content overview for v1 w3bbiemag
 | 28     | nyra beats spotlight                                       | n/a                |               |                    ||
 | 29     | The DAP: decentra-american-party                           | jack               | poli-govt     |                    ||
 | 30     | w3bbie pivots on corporate                                 | jack               |               |                    ||
+| 31     | stay based my friends and ai gen music                     | trav               |               |                    ||
 | <num>  | <content-name>                                             | <contrib-name>     | <topic>       | <status>           ||
 
 
